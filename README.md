@@ -1,22 +1,20 @@
-# hola-mundo-php
-Programa en PHP que muestra un mensaje y una imagen
-# Conversor de Monedas en C
+# Hola Mundo en PHP
 
 ## Descripción
-Este proyecto consiste en un programa desarrollado en lenguaje C que permite convertir monedas entre quetzales, dólares y euros. El usuario selecciona una opción y el programa calcula el resultado correspondiente.
+Este proyecto consiste en un programa desarrollado en PHP que muestra en pantalla el mensaje “Hola mundo, soy Oliver”, junto con una imagen generada mediante inteligencia artificial.
 
 ## Prerrequisitos
-- Tener un compilador de C instalado
+- Tener instalado Apache y PHP
 - En Ubuntu se puede instalar con:
-sudo apt install build-essential
+sudo apt install apache2 php
 
 ## Pasos para su ejecución
-1. Compilar el programa:
-gcc conversor_monedas.c -o conversor
-2. Ejecutar el programa:
-./conversor
+1. Colocar el proyecto en la carpeta del servidor (htdocs)
+2. Iniciar Apache
+3. Abrir el navegador y acceder a:
+http://localhost/hola_php
 
 ## Datos del autor
 - Nombre: Oliver García
 - Correo: oliver.garcia@galileo.edu
-- Carnet: 260001348
+- Carnet: 26003824
